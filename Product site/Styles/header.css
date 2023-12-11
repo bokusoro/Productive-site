@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*Header_logo*/
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.header__nav {
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo div a img:hover {
+  color: #6188ff;
+}
+
+.header__nav a {
+  margin-left: 42px;
+  text-decoration: none;
+  color: #697ca6;
+  font-family: "QuickSand-Medium", sans-serif;
+  font-size: 13px;
+}
+
+.header__nav a:hover {
+  color: #5e81fe;
+  font-weight: 700;
+}
+
+.header__logo div {
+  margin-left: 361px;
+  margin-right: 44px;
+}
+
+/*Header main*/
+
+section.header__main {
+  background-color: #f4f7ff;
+  background-size: 30%;
+  width: 100%;
+  position: relative;
+  height: min(730px)
+}
+
+.header__main__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__paragraph {
+  width: 515px;
+  line-height: 27px;
+  text-align: center;
+  font-family: "QuickSand-Medium", sans-serif;
+  font-size: 15px;
+  margin-top: 28px;
+  margin-bottom: 0;
+  color: #8d96bd;
+}
+
+.header__subtitle,
+.header__title {
+  margin: 0;
+  color: #8d96bd;
+}
+
+.header__subtitle {
+  margin-top: 92px;
+  margin-bottom: 0;
+  font-family: RobotoB;
+  color: #3d4f9f;
+  font-size: 10px;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: lighter;
+  font-family: "QuickSand-Light", sans-serif;
+  text-align: center;
+  color: #3d4f9f;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.header__title::after {
+  content: "  productivity";
+  color: #3d4f9f;
+  font-family: "QuickSand-Medium", sans-serif;
+}
+
+.play__button {
+  display: flex;
+  justify-content: center;
+}
+
+.header__clouds__bg {
+  background:url("../Images/Header\ Assets/clouds.svg"); 
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+
+/*.header__vector__svg {
+  background-image: url("../Images/Header\ Assets/header vector.svg");
+  background-size: 100% auto;
+}*/
+
+/*.header__vector__svg  {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translate(-50%);
+  bottom: 0;
+  z-index: 0;
+  width: 100%;
+  max-height: 100%;
+}*/
+
+.header__bg {
+  position: relative;
+  transform:translateY(-40%)
+}
+

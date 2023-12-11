@@ -1,0 +1,25 @@
+
+@font-face {
+  font-family:"QuickSand-Bold";
+  src: url("/Fonts/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family:"QuickSand-Medium";
+  src: url("/Fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family:"QuickSand-Light";
+  src: url("/Fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+  font-family:"QuickSand-Regular";
+  src: url("/Fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+  font-family: RobotoB;
+  src: url("../Fonts/Roboto-Bold.ttf");
+}
